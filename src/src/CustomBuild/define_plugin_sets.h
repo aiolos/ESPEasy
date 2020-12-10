@@ -832,6 +832,7 @@ To create/register a plugin, you have to :
     #define USES_P063   // TTP229_KeyPad
     #define USES_P073   // 7DG
     #define USES_P079   // Wemos Motoshield
+    #define USES_P248   // Modbus HomEvap
 #endif
 
 
@@ -926,6 +927,7 @@ To create/register a plugin, you have to :
     #define USES_P106   // BME680
     #define USES_P107   // SI1145 UV index
     #define USES_P108   // DDS238-x ZN MODBUS energy meter (was P224 in the Playground)
+    // #define USES_P248   // Modbus HomEvap
 #endif
 
 
@@ -1086,6 +1088,7 @@ To create/register a plugin, you have to :
 	#define USES_P211	// MPU6050
 	#define USES_P212	// MY9291
 	#define USES_P213	// VEML6070
+    // #define USES_P248   // Modbus HomEvap
 #endif
 
 
