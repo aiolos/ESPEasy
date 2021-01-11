@@ -294,7 +294,7 @@ boolean Plugin_248(byte function, struct EventStruct *event, String& string) {
       if (command == F("setduct"))
       {
         addLog(LOG_LEVEL_INFO, F("P248: Set duct command received"));
-        int arg1 = parseString(string, 2).toInt();
+        int arg1 = parseString(string, 2).toFloat() * 10;
         p248_writeValue(P248_COMMAND_TEMP_SETPOINT, arg1, event);
         success = true;
       }
